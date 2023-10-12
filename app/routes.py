@@ -1,7 +1,7 @@
 from flask import render_template,request
 from werkzeug.utils import secure_filename
 from . import app
-from .utils import predict,get_model
+from .utils import predict
 import os
 
 @app.route('/',methods=['GET','POST'])
